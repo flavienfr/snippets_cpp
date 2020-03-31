@@ -1,0 +1,19 @@
+{
+	"Method creator": {
+	"scope": "cpp",
+	"prefix": "method",
+	"body": [
+		"#include \"${TM_FILENAME_BASE}.hpp\"",
+		"",
+		"$TM_FILENAME_BASE::$TM_FILENAME_BASE()",
+		"{",
+		"}",
+		"",
+		"$TM_FILENAME_BASE::~$TM_FILENAME_BASE()",
+		"{",
+		"}",
+		""
+	],
+	"description": "Constructor and destructor methods"
+	}
+}
