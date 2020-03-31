@@ -1,7 +1,7 @@
 # snippets_cpp
 
 Add these files into the following folder:
-Linux:  /home/froussel/.config/Code/User/snippets
+Linux:  /home/USER_NAME/.config/Code/User/snippets
 
 Create snnipets manually
 ![](snippets.png)
