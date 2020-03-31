@@ -2,3 +2,6 @@
 
 Add these files into the following folder:
 Linux:  /home/froussel/.config/Code/User/snippets
+
+Create snnipets manually
+![](snippets.png)
