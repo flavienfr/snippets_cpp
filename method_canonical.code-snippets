@@ -1,0 +1,29 @@
+{
+	"Method creator": {
+	"scope": "cpp",
+	"prefix": "method_canonical",
+	"body": [
+		"#include \"${TM_FILENAME_BASE}.hpp\"",
+		"",
+		"$TM_FILENAME_BASE::$TM_FILENAME_BASE()",
+		"{",
+		"}",
+		"",
+		"$TM_FILENAME_BASE::$TM_FILENAME_BASE(const $TM_FILENAME_BASE &the_$TM_FILENAME_BASE)",
+		"{",
+		"\t*this = the_$TM_FILENAME_BASE;",
+		"}",
+		"",
+		"$TM_FILENAME_BASE &$TM_FILENAME_BASE::operator=(const $TM_FILENAME_BASE &the_$TM_FILENAME_BASE)",
+		"{",
+		"\treturn (*this);",
+		"}",
+		"",
+		"$TM_FILENAME_BASE::~$TM_FILENAME_BASE()",
+		"{",
+		"}",
+		""
+	],
+	"description": "Constructor / copy constructor / assignation and destructor methods"
+	}
+}
